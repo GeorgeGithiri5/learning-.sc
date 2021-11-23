@@ -14,7 +14,7 @@ class Children extends Inheritance{
 }
 
 object Main{
-  def main(){
+  def main(args: Array[String]){
     val ob = new Children();
     ob.family();
   }
