@@ -10,9 +10,9 @@ class Test {
   }
 }
 
-object Main{
-  def main(args: Array[String]){
-    var obj = new Test();
-    obj.Display()
-  }
-}
+//object Main{
+//  def main(args: Array[String]){
+//    var obj = new Test();
+//    obj.Display()
+//  }
+//}
