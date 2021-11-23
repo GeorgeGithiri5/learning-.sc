@@ -1,21 +1,22 @@
 package OOP
 
 class Inheritance {
-  var Name: String = "Ankita"
+  var Languages: String = "Java, Scala, GO, Javascript"
 }
 
-class Child extends Inheritance{
-  var Age: Int = 22
+class Libraries extends Inheritance
+{
+  var library: String = "React js, Spring Boot"
 
   def details(){
-    println("Name: " + Name)
-    println("Age: " + Age)
+    println("Languages: " + Languages)
+    println("library: " + library)
   }
 }
 
 object Main{
   def main(args: Array[String]){
-    val ob = new Child();
+    val ob = new Libraries();
     ob.details();
   }
 }
