@@ -15,3 +15,13 @@ class Polymorphism {
     println("Sum is: " + Sum)
   }
 }
+
+object Main{
+  def main(args: Array[String]){
+    var A = new Polymorphism();
+    A.func("Swift", "hatchback");
+    A.func("honda-city","sedan")
+    A.func("Ashok", 95)
+    A.func(10,20)
+  }
+}

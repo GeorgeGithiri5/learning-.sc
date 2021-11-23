@@ -16,9 +16,9 @@ class Constructor(Aname: String, Cname: String)
   }
 }
 
-object Main{
-  def main(args: Array[String]){
-    var obj = new Constructor("Anya", "Constructor", 34)
-    obj.display();
-  }
-}
+//object Main{
+//  def main(args: Array[String]){
+//    var obj = new Constructor("Anya", "Constructor", 34)
+//    obj.display();
+//  }
+//}
