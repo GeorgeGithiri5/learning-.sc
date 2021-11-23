@@ -15,9 +15,9 @@ class Child2 extends Child1{
   }
 }
 
-object Main{
-  def main(args: Array[String]): Unit ={
-    val ob = new Child2();
-    ob.details();
-  }
-}
+//object Main{
+//  def main(args: Array[String]): Unit ={
+//    val ob = new Child2();
+//    ob.details();
+//  }
+//}
