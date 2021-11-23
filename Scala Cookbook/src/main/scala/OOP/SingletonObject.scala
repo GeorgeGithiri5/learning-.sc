@@ -10,9 +10,9 @@ class SingletonObject {
   }
 }
 
-object Main{
-  def main(args: Array[String]){
-    var obj = new SingletonObject();
-    obj.area();
-  }
-}
+//object Main{
+//  def main(args: Array[String]){
+//    var obj = new SingletonObject();
+//    obj.area();
+//  }
+//}
