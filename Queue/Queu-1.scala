@@ -22,12 +22,16 @@ object GfG{
         q1.foreach((element:Int)=>print(element + " "))
 
         // Dequeue first element from the queue
-        var dep = q1.dequeue
+        var deq = q1.dequeue
 
         // Print the elements of queue
         print("\nQueue Elements after dequeue: ")
         q1.foreach((element:Int)=>print(element + " "))
 
-        
+        // Print
+        print("\nDequeued element: " + deq)
+
+        // use isEmpty method
+        println("\nQueue is empty: " + q1.isEmpty)
     }
 }
